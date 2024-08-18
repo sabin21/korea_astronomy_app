@@ -1,0 +1,134 @@
+html, body { margin: 0; padding: 0; }
+
+* { box-sizing: border-box; }
+
+.mockup-body { width: 100%; background-color: #DBE0E3; }
+
+.tablet-back { width: 100%; }
+
+.tablet-back {
+  /*tablet*/
+  position: absolute;
+  width: 706px;
+  height: 922px;
+  margin: auto;
+  background-image: url(../img/ipad_pro_frame.png);
+  background-size: 706px 922px;
+  background-repeat: no-repeat;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.mobile-sample {
+  background-color: #3f4149;
+}
+
+.mobile-back {
+  position: absolute;
+  width: 422px; height: 814px;
+  margin: auto; left: 0; right: 0; top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  background-image: url(../img/iphone_frame_light_gray.png);
+  background-size: 424px 814px;
+  background-repeat: no-repeat;
+
+  .screen-wrap {
+    width: 376px; height: 780px;
+    border: none;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+      position: absolute;
+      width: 376px;
+      height: 780px;
+      top: 17px;
+      left: 24px;
+      border-radius: 43px; 
+  }  
+}
+
+.tablet-sample, .mobile-sample {
+  width: 100%;
+  background-color: #DBE0E3;
+}
+
+.tablet-sample iframe { /* tablet */
+  width: 700px;
+  height: 860px;
+  border: none;
+  display: block;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.tablet-sample iframe.screen-wrap {
+  /*tablet*/
+  position: absolute;
+  width: 642px;
+  height: 857px;
+  top: 34px;
+  left: 30px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -ms-border-radius: 10px 10px 10px 10px;
+  -o-border-radius: 10px 10px 10px 10px;
+}
+
+/*=================*/
+
+.mo-page {
+  -ms-overflow-style: none;
+  overflow: auto;
+}
+
+.mo-page::-webkit-scrollbar {
+  width: 0px;
+  display: none;
+}
+
+.mo-page::-webkit-scrollbar-track {
+  display: none;
+}
+
+.mo-page::-webkit-scrollbar-thumb {
+  display: none;
+  background: rgb(0, 0, 0);
+}
+
+.mo-page.white {
+  background-color: #fff;
+}
+.dummy-full{
+  width:100%;  
+}
+.mo-wrap{
+  position: relative; width:100%; 
+}
+
+.wrap {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/*--------------*/
+
+.phone-two-wrap{
+  width:100%; display:flex; height: 814px; position: relative;
+  justify-content:space-around; margin: 0 auto; padding-top: 3rem;
+  max-width: 1100px;
+  .phone-wrap{
+    width: 500px; position:relative; height: 814px; 
+  }
+}

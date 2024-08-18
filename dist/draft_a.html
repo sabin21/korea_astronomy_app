@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>한국천문연구원</title> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" defer="">
+
+<link rel="icon" href="favicon.png"><link href="./css/draft_a.build.css" rel="stylesheet"></head>
+
+<body class="home">
+
+  <header class="app-header">
+    <div class="inner">
+      <a class="logo-wrap" href=""></a>
+      <ul class="gnb-menu-wrap">
+        <li><a href="#">연구원 소개</a></li>
+        <li><a href="#">연구분야</a></li>
+        <li><a href="#">연구성과</a></li>
+        <li><a href="#">학술정보</a></li>
+        <li><a href="#">과학문화</a></li>
+        <li><a href="#">고객참여</a></li>
+        <li><a href="#">정보공개</a></li>
+      </ul>
+      <div class="right-block"><img src="./img/draft_a/header_right.png" alt=""> </div>
+    </div>    
+  </header>
+
+  <div class="hero-wrap">
+    <canvas class="hero-canvas" id="hero-canvas"></canavs>
+  </div>
+  <span class="hero-overlay"></span>
+  
+<main class="home-main">
+
+  <section class="section section-hero">
+    <div class="hero-swiper-wrap">
+      <div class="hero-title-outer">
+        <span class="left-bar"></span>
+        <div class="hero-title-wrap">
+          <span class="title-1">대한민국 대표 천문우주 연구기관</span>
+          <span class="title-2">한국천문연구원</span>
+        </div>
+      </div>
+      
+      <div class="row-wrapper">
+        <div class="hero-slide" id="hero-slide-01">
+          <img src="./img/draft_a/banner_1.png" alt="">
+          <div class="inner-wrap">
+            <span class="title-wrap">
+              <h2>GMT</h2>
+              <span class="desc">
+                대한민국의 한국천문연구원이 공동으로<br>
+                개발하는 세계 최대급 천문대
+              </span>
+            </span>
+            <button class="btn-go">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 12L19 12" stroke="#2D2D2D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 5L19 12L12 19" stroke="#2D2D2D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>  
+            </button>
+          </div>
+        </div>
+        <div class="hero-slide" id="hero-slide-02">
+          <img src="./img/draft_a/banner_2.png" alt="">
+          <div class="inner-wrap">
+            <span class="title-wrap">
+              <h2>KVN</h2>
+              <span class="desc">
+                KVN은 서울,울산,제주도,평창에 설치된 <br>
+                4기의 망원경으로 구성된 VLBI 관측망
+              </span>
+            </span>
+            <button class="btn-go">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 12L19 12" stroke="#2D2D2D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 5L19 12L12 19" stroke="#2D2D2D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>  
+            </button>
+          </div>
+        </div>
+        <div class="hero-slide" id="hero-slide-03">
+          <img src="./img/draft_a/banner_3.png" alt="">
+          <div class="inner-wrap">
+            <span class="title-wrap">
+              <h2>KMTNet</h2>
+              <span class="desc">
+                지구형 외계행성을 탐색하기 위하여<br>
+                KMTNet 과제를 시작
+              </span>
+            </span>
+            <button class="btn-go">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 12L19 12" stroke="#2D2D2D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 5L19 12L12 19" stroke="#2D2D2D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>  
+            </button>
+          </div>
+        </div>
+        <div class="hero-slide" id="hero-slide-04">
+          <img src="./img/draft_a/banner_4.png" alt="">
+          <div class="inner-wrap">
+            <span class="title-wrap">
+              <h2>도요샛</h2>
+              <span class="desc">
+                근지구 우주환경 관측위성으로 10kg <br>
+                이하의 나노급 위성 4기로 구성
+              </span>
+            </span>
+            <button class="btn-go">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 12L19 12" stroke="#2D2D2D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 5L19 12L12 19" stroke="#2D2D2D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>  
+            </button>
+          </div>
+        </div>
+        <div class="hero-slide" id="hero-slide-05">
+          <img src="./img/draft_a/banner_5.png" alt="">
+          <div class="inner-wrap">
+            <span class="title-wrap">
+              <h2>SPHEREx</h2>
+              <span class="desc">
+                전천 적외선 영상분광 탐사를 위한 우주망원경<br>
+                적외선을 볼 수 있는 우주망원경
+              </span>
+            </span>
+            <button class="btn-go">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 12L19 12" stroke="#2D2D2D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 5L19 12L12 19" stroke="#2D2D2D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>  
+            </button>
+          </div>
+        </div>
+        <div class="hero-slide" id="hero-slide-06">
+          <img src="./img/draft_a/banner_6.png" alt="">
+          <div class="inner-wrap">
+            <span class="title-wrap">
+              <h2>ALMA</h2>
+              <span class="desc">
+                칠레 아타카마 사막에 세워진 전파안테나<br>
+                세계 최대의 전파간섭계 시설
+              </span>
+            </span>
+            <button class="btn-go">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 12L19 12" stroke="#2D2D2D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 5L19 12L12 19" stroke="#2D2D2D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>  
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-2">
+    <div class="big-headline-wrap">
+      <span class="headline-row">
+        <span class="headline-row-item headline-copy-1">
+          별과 우주연구로
+        </span>
+      </span>
+      <span class="headline-row">
+        <span class="headline-row-item headline-copy-1">
+          우주시대를 열어갑니다
+        </span>
+      </span>
+    </div>
+  </section>
+
+  <section class="section section-news">
+
+    <div class="news-wrap">
+      <div class="title-wrap-outer">
+        <div class="title-wrap">
+          <span class="text-wrap">
+            보도자료<span class="desc">한국천문연구원의 생생한 소식들을 확인해보세요</span>
+          </span>
+          <div class="btn-more">
+            <img src="./img/draft_a/btn_more.png">
+          </div>
+        </div>
+      </div>
+      
+      <div class="news-card-wrap">
+        <div class="news-card">
+          <div class="thumb">
+            <img src="./img/draft_a/news_1.jpg" alt="">
+          </div>
+          <span class="card-body">
+            <span class="title">
+              [천문연 참고자료] 2024년 페르세우스자리 유성우 관련 참고자료
+            </span>
+            <span class="date">
+              2024.08.10
+            </span>
+          </span>
+        </div>
+
+        <span class="divider"></span>
+
+        <div class="news-card">
+          <div class="thumb">
+            <img src="./img/draft_a/news_2.jpg" alt="">
+          </div>
+          <span class="card-body">
+            <span class="title">
+              COSPAR 2024 성황리에 마무리, 총 3000여 명 참석
+            </span>
+            <span class="date">
+              2024.08.10
+            </span>
+          </span>
+        </div>
+
+      </div>
+
+      <div class="news-card-wrap">
+
+        <div class="news-card">
+          <div class="thumb">
+            <img src="./img/draft_a/news_3.jpg" alt="">
+          </div>
+          <span class="card-body">
+            <span class="title">
+              [국가유산청 보도자료] 경주 첨성대에서 보고, 듣고, 탐구하는 우주 이야기
+            </span>
+            <span class="date">
+              2024.08.10
+            </span>
+          </span>
+        </div>
+
+        <span class="divider"></span>
+
+        <div class="news-card">
+          <div class="thumb">
+            <img src="./img/draft_a/news_4.jpg" alt="">
+          </div>
+          <span class="card-body">
+            <span class="title">
+              [천문연 참고자료] 천문연 망원경 및 한국에서 촬영한 오로라 사진
+            </span>
+            <span class="date">
+              2024.08.10
+            </span>
+          </span>
+        </div>
+      </div>
+
+      <div class="title-wrap-outer" style="margin-top: 80px;">
+        <div class="title-wrap">
+          <span class="text-wrap">
+            알림사항 <span class="tab-item">채용공고</span>
+          </span>
+          <div class="btn-more">
+            <img src="./img/draft_a/btn_more.png">
+          </div>
+        </div>
+      </div>
+
+      <div class="notice-wrap">
+        <div class="notice-item">
+          <h4>한국천문연구원(KASI) 원장 초빙 공고문</h4>
+          <span class="date-block">
+            2024.08.10
+          </span>
+        </div>
+        <div class="notice-item">
+          <h4>2024년 한국천문연구원 집중안전점검 점검결과 안내</h4>
+          <span class="date-block">
+            2024.08.10
+          </span>
+        </div>
+        <div class="notice-item">
+          <h4>2024학년도 KASI 학부생 견학 프로그램 참가자 모집 안내</h4>
+          <span class="date-block">
+            2024.08.10
+          </span>
+        </div>
+        <div class="notice-item">
+          <h4>2024년 소백산천문대 대학생 여름학교 개최 안내</h4>
+          <span class="date-block">
+            2024.08.10
+          </span>
+        </div>
+      </div>
+
+    </div><!-- News Wrap end -->
+
+    <div class="moon-pict"></div>
+  </section>
+
+  <section class="section section-domain">
+    <div class="inner-wrap">
+      <div class="title-wrap">
+        <span class="text-wrap">
+          연구분야<span class="desc">우주천문 전분야에 걸친 다양한 연구분야</span>
+        </span>
+      </div>
+      <div class="domain-swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/draft_a/domain_1.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/draft_a/domain_2.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/draft_a/domain_3.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/draft_a/domain_4.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/draft_a/domain_5.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/draft_a/domain_6.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section section-cons">
+    <img src="./img/draft_a/cons_full.png" class="img-full">
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="links">
+    <img src="./img/draft_a/footer_1.png" alt="">
+  </div>
+  <div class="footer-body">
+    <img src="./img/draft_a/footer_2.png" alt="">
+  </div>
+</footer>
+
+<button class="btn-pagetop">
+  <svg width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M21 16L12 7L3 16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1 1H23" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  </svg>    
+</button>
+
+<script defer src="./js/vendors.bundle.js"></script><script defer src="./js/draft_a.bundle.js"></script></body>
+</html>

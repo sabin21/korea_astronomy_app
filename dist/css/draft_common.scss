@@ -1,0 +1,65 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+
+:root{
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+  --gray-950: #030712;
+
+  /* Colors ======================= */
+
+  /* Gray */
+  --vk-global-color-gray-0 : #ffffff;
+  --vk-global-color-gray-0-alpha-05: rgba(255,255,255,0.05);
+  --vk-global-color-gray-0-alpha-10: rgba(255,255,255,0.10);
+  --vk-global-color-gray-0-alpha-25: rgba(255,255,255,0.25);
+  --vk-global-color-gray-0-alpha-50: rgba(255,255,255,0.5);
+  --vk-global-color-gray-0-alpha-75: rgba(255,255,255,0.75);
+  --vk-global-color-gray-5 : #F8F8F8;
+  --vk-global-color-gray-10 : #F0F0F0;
+  --vk-global-color-gray-20 : #E4E4E4;
+  --vk-global-color-gray-30 : #D8D8D8;
+  --vk-global-color-gray-40 : #C6C6C6;
+  --vk-global-color-gray-50 : #8E8E8E;
+  --vk-global-color-gray-60 : #717171;
+  --vk-global-color-gray-70 : #555555;
+  --vk-global-color-gray-80 : #2D2D2D;
+  --vk-global-color-gray-90 : #1D1D1D;
+  --vk-global-color-gray-100 : #000000;
+  --vk-global-color-gray-100-alpha-05 : rgba(0,0,0,0.05);
+  --vk-global-color-gray-100-alpha-075 : rgba(0,0,0,0.75);
+  --vk-global-color-gray-100-alpha-10 : rgba(0,0,0,0.10);
+  --vk-global-color-gray-100-alpha-15 : rgba(0,0,0,0.15);
+  --vk-global-color-gray-100-alpha-20 : rgba(0,0,0,0.20);
+  --vk-global-color-gray-100-alpha-25 : rgba(0,0,0,0.25);
+  --vk-global-color-gray-100-alpha-50 : rgba(0,0,0,0.50);
+  --vk-global-color-gray-100-alpha-75 : rgba(0,0,0,0.75);
+}
+
+body{
+  font-family: 'pretendard'; color:var(--gray-900);
+}
+ul{
+  margin:0; padding:0;
+}
+.main{
+  position: relative; width:100%; 
+}
+
+.doc-wrap{
+  position: relative; margin: 0 auto; padding: 150px 0;
+  width:100%; max-width: 1400px; 
+  >.row{
+    width: 100%; padding: 24px 0; display: flex;
+    &.gap-4{
+      gap: 32px;
+    }
+  }
+}
