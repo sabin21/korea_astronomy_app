@@ -1,9 +1,13 @@
 
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
 
-*,*::before, *::after{
-  box-sizing: border-box;
+*,*::before, *::after{ box-sizing: border-box; }
+
+ul{
+  padding:0;
+  li{ list-style: none; }
 }
+
 body { 
   overflow-x: hidden;
   font-family: 'Pretendard','Noto Sans KR', 'Malgun Gothic', 'dotum', sans-serif !important;
@@ -79,6 +83,22 @@ body {
         h4 {font-size:20px; font-weight:bold; margin: 12px 0 0 0;}
         p{ font-size:17px; word-break: keep-all; line-height: 1.45em;}
       }
+    }
+  }
+}
+
+/* 시안 공통 방향 설명-------------*/
+
+.drafts-desc-wrap{
+  width: 100%;
+  h3{
+    font-size: 22px; margin: 40px 0 8px 0;
+  }
+  >ul{
+    padding-left: 16px;
+    li{
+      list-style: disc;
+      font-size: 18px; padding: 8px 0;
     }
   }
 }
