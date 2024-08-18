@@ -69,32 +69,4 @@ export class Galaxy {
         return objects
     }
 
-    // generateObject(numStars, generator) {
-
-    //     const galaxyGeo = new THREE.BufferGeometry();
-    //     const positions = new Float32Array(numStars * 3);
-    //     let objects = [];
-
-    //     for ( let i = 0; i < numStars / 4; i++){
-    //         let pos = new THREE.Vector3(gaussianRandom(0, CORE_X_DIST), gaussianRandom(0, CORE_Y_DIST), gaussianRandom(0, GALAXY_THICKNESS));
-    //         let obj = generator(pos);
-    //         galaxyGeo.push(obj);
-    //     }
-
-    //     for ( let i = 0; i < numStars / 4; i++){
-    //         let pos = new THREE.Vector3(gaussianRandom(0, OUTER_CORE_X_DIST), gaussianRandom(0, OUTER_CORE_Y_DIST), gaussianRandom(0, GALAXY_THICKNESS));
-    //         let obj = generator(pos);
-    //         galaxyGeo.push(obj);
-    //     }
-
-    //     for (let j = 0; j < ARMS; j++) {
-    //         for ( let i = 0; i < numStars / 4; i++){
-    //             let pos = spiral(gaussianRandom(ARM_X_MEAN, ARM_X_DIST), gaussianRandom(ARM_Y_MEAN, ARM_Y_DIST), gaussianRandom(0, GALAXY_THICKNESS), j * 2 * Math.PI / ARMS);
-    //             let obj = generator(pos);
-    //             galaxyGeo.push(obj);
-    //         }
-    //     }
-
-    //     return galaxyGeo
-    // }
 }
